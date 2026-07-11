@@ -11,7 +11,7 @@ void setup() {
 
 void loop() {
 
-  // รับคำสั่งจาก Python
+
   if (Serial.available() > 0) {
     command = Serial.readStringUntil('\n');
     command.trim();
